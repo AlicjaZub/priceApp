@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1> Simple traffic-based pricing </h1>
+</header>
+<main>
+    <div class="tier1">
+       <div>
+           <p id="pageviews"> 100k page views</p>
+       </div>
+       <div>
+           <p id="price">£16 per month</p>
+       </div>
+    </div>
+    <div class="tier2">
+        <input id="slide_bar" type="range" min="1" max="100" value="50">
+    </div>
+    <div class="tier3">
+        <p class="choices">Monthly billing</p>
+        <label class="switch">
+            <input id="toggle_switch" type="checkbox" checked>
+            <span class="slider"></span>
+        </label>
+        <p class="choices">Yearly billing <span class="discount"> 25% discount</span></p>
+    </div>
+    <div class="tier4">
+        <div>
+            <ul>
+                <li>Unlimited websites</li>
+                <li>100% data ownership</li>
+                <li>Email reports</li>
+            </ul>
+        </div>
+        <div>
+            <button type="submit">Start my trial</button>
+        </div>
+    </div>
+</main>
+
+
+</body>
+</html>
